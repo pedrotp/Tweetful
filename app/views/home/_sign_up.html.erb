@@ -4,7 +4,7 @@
                        :builder => InlineErrorsBuilder,
                        :method => :POST,
                        :role => :form do |f| %>
-  <div>
+  <div id="signup_div">
     <%= content_tag :div do %>
       <%= f.text_field :name, :placeholder => "Full name" %>
       <%= f.errors_for :name %>

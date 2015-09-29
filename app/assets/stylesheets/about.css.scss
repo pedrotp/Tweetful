@@ -1,3 +1,37 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.masthead-heading, .masthead-intro {
+    text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-color: lightblue;
+}
+
+.masthead-heading {
+    margin-bottom: 0.1em;
+}
+
+.masthead-intro {
+    margin-top: -0.2em;
+}
+
+.info h2, h3 {
+  text-align: center;
+  color: blue;
+}
+
+.info {
+  float: left;
+  width: 30%;
+  min-width: 340px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+footer {
+    clear: both;
+}
